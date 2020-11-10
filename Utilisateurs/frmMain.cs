@@ -140,6 +140,8 @@ namespace Utilisateurs
 
 				utilisateursTableAdapter.Update(txtNom.Text, txtPrenom.Text, dtpDtNaiss.Value, idDept, currentRow.IdUtil, currentRow.Nom, currentRow.Prenom, currentRow.DtNaiss, IdDepte);
 				Fill_DataTables();
+
+				//nouveau commentaireeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
 			}
 		}
 	}
